@@ -5,7 +5,9 @@ namespace Arall\Tests\Mocks;
 use Arall\GeneticAlgorithm\LogicInterface;
 
 /**
- * Dummy logic.
+ * Dummy logic class.
+ *
+ * @author Gerard Arall <gerard.arall@gmail.com>
  */
 class StringLogic implements LogicInterface
 {

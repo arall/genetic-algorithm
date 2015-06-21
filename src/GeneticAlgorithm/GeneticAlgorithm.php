@@ -5,9 +5,9 @@ namespace Arall\GeneticAlgorithm;
 /**
  * Genetic Algorithm class.
  *
- * @category   PHP
- *
  * @author Gerard Arall <gerard.arall@gmail.com>
+ *
+ * @link https://github.com/arall/genetic-algorithm
  */
 class GeneticAlgorithm
 {
@@ -258,6 +258,8 @@ class GeneticAlgorithm
     /**
      * Set the best candidates as current population.
      *
+     * @param array $individuals
+     *
      * @return array $individuals
      */
     private function setCandidates($individuals)
@@ -274,8 +276,9 @@ class GeneticAlgorithm
 
     /**
      * Check the current population.
+     * Will try to return an individual that matches the desired min score.
      *
-     * @return [type] [description]
+     * @return mixed
      */
     private function check()
     {

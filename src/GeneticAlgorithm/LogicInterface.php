@@ -4,6 +4,11 @@ namespace Arall\GeneticAlgorithm;
 
 /**
  * Logic interface.
+ * Represents the logic for the Genetic Algorithm.
+ *
+ * @author Gerard Arall <gerard.arall@gmail.com>
+ *
+ * @link https://github.com/arall/genetic-algorithm
  */
 interface LogicInterface
 {
@@ -18,6 +23,8 @@ interface LogicInterface
     /**
      * Fitness calculation.
      * The more, the better.
+     *
+     * @param mixed $individual
      *
      * @return float
      */
