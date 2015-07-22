@@ -1,5 +1,7 @@
 # Genetic Algorithm
 
+[![Build Status](https://codeship.com/projects/92529/status?branch=master)](https://codeship.com/projects/92529/) 
+
 This is an implementation of genetic optimization algorithms. Check the tests files to know exactly how it works.
 
 ## How to use it
